@@ -1,0 +1,20 @@
+{
+  "name": "水薪记",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "将文本提取为各种代码片段",
+  "icons": {
+    "16": "./assets/icon.png",
+    "32": "./assets/icon.png",
+    "48": "./assets/icon.png",
+    "128": "./assets/icon.png"
+  },
+  "browser_action": {
+    "default_icon": "./assets/icon.png",
+    "default_title": "又是带薪喝水的一天~",
+    "default_popup": "./html/popup.html"
+  },
+  "background": {
+    "page": "../html/background.html"
+  }
+}
